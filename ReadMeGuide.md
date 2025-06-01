@@ -22,6 +22,20 @@
 - utils
 - models
 
+#### External npm lib dependency require (dependency)
+
+- dotenv
+- express
+- mongoose
+- cookie-parser
+- cors
+
+#### External npm lib Dev dependency require (dev-dependency) which requri only during development not in production
+
+- install command : `npm i -D packageName`
+- nodemon
+- prettier
+
 Dev Dependency Files (Note It should be install with `-D or --save-dev` becoz it is only used during development phase but not in production)
 
 - Nodemon | (automatically start and stop server to refresh content similar to live server) | command : `npm install --save-dev nodemon `
@@ -51,6 +65,15 @@ Dev Dependency Files (Note It should be install with `-D or --save-dev` becoz it
 *.env
 .env
 .evn.*
+```
+
+#### .env file
+
+```
+MONGODB_URI = mongodb+srv://Rahul:<password>@cluster0.ydgrboo.mongodb.net
+PORT = 8000
+CORS_ORIGIN = *
+
 ```
 
 ## Models
