@@ -85,3 +85,20 @@ Youtube Project : [Youtube Project Models](https://app.eraser.io/workspace/YtPqZ
 ## Middlewares
 
 ## Controllers
+
+## Utils
+
+```
+Note
+
+const appHandlers = () => {
+  () => {
+
+  }
+}
+
+above code short form is below code
+
+const appHandlers = () => () => {}
+
+```
