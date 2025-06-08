@@ -29,6 +29,9 @@
 - mongoose
 - cookie-parser
 - cors
+- jsonwebtoken (use in login authentication)
+- bcrypt (password hashing)
+- mongoose-aggregate-paginate-v2 (provide extra nosql methods to perform data operation)
 
 #### External npm lib Dev dependency require (dev-dependency) which requri only during development not in production
 
@@ -73,6 +76,12 @@ Dev Dependency Files (Note It should be install with `-D or --save-dev` becoz it
 MONGODB_URI = mongodb+srv://Rahul:<password>@cluster0.ydgrboo.mongodb.net
 PORT = 8000
 CORS_ORIGIN = *
+
+# JWT TOKENS
+ACCESS_TOKEN_SECRET = CHAI-AUR-CODE
+ACCESS_TOKEN_EXPIRY = 1D
+REFRESH_TOKEN_SECRET = NODE-BACKEND
+REFRESH_TOKEN_EXPIRY = 10d
 
 ```
 
