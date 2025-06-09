@@ -81,6 +81,10 @@ userSchema.methods.generateAccessToken = function () {
   );
 };
 
+// refresh token will be stored in database
+
+// jwt work on key concept whoever has the key will share details to it..
+
 userSchema.methods.generateRefreshToken = function () {
   // jwt.sign({payload/data}, access-token-secret, {expiersIn: access-token-expiry})
   return jwt.sign(
