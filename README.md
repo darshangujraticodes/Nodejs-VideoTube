@@ -32,6 +32,8 @@
 - jsonwebtoken (use in login authentication)
 - bcrypt (password hashing)
 - mongoose-aggregate-paginate-v2 (provide extra nosql methods to perform data operation)
+- multer (file upload npm lib)
+- cloudinary (3rd party image storage platform)
 
 #### External npm lib Dev dependency require (dev-dependency) which requri only during development not in production
 
@@ -82,6 +84,12 @@ ACCESS_TOKEN_SECRET = CHAI-AUR-CODE
 ACCESS_TOKEN_EXPIRY = 1D
 REFRESH_TOKEN_SECRET = NODE-BACKEND
 REFRESH_TOKEN_EXPIRY = 10d
+
+# cloudinary
+CLOUDINARY_CLOUD_NAME = dfke2ujtg
+CLOUDINARY_API_KEY = 758582698644889
+CLOUDINARY_API_SECRET = okpbg_HI9sHdaSE-vbhP4z7fFSw
+
 
 ```
 
